@@ -1,3 +1,39 @@
 body {
-  background-color: aqua;
+  box-sizing: border-box;
+  /* background-color: white; */
+  background-color: #115695;
+  /* background-color: #f4dd4b; */
+  font-family: monospace;
+}
+h1 {
+  text-align: center;
+  font-size: 35px;
+  margin: 15px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#bob {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+#submitForm {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+#trans {
+  padding: 5px 0px 5px 0px;
+  font-size: 15px;
+}
+
+.min {
+  align-content: center;
 }
